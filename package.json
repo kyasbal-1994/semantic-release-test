@@ -1,0 +1,23 @@
+{
+  "name": "semantic-release-test",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kyasbal-1994/semantic-release-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyasbal-1994/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/kyasbal-1994/semantic-release-test#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  }
+}
