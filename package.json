@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/kyasbal-1994/semantic-release-test#readme",
   "devDependencies": {
+    "condition-circle": "^1.5.0",
     "semantic-release": "^6.3.2"
+  },
+  "release": {
+    "verifyConditions": "condition-circle"
   }
 }
