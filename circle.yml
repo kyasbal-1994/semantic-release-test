@@ -16,5 +16,7 @@ dependencies:
     - yarn install
 
 test:
+  post:
+    - npm run semantic-release
   override:
     - echo test
